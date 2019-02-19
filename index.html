@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+  <title>LinkedIn</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="nav">
+      <img src="img/logo.png" class="logo" />
+
+      <form role="form">
+        <div class="form-group">
+          <input type="text" class="form-control empty" id="iconified" placeholder="&#xF002; Search" />
+        </div>
+      </form>
+
+      <ul class="nav__list">
+
+
+        <a href="index.html"><button class="nav__list--btn active">
+            <i class="fas fa-home"></i><span class="icon">Home</span>
+          </button></a>
+
+        <button class="nav__list--btn">
+          <i class="fas fa-user-friends"></i><span class="icon">My Network</span>
+        </button>
+
+        <button class="nav__list--btn">
+          <i class="fas fa-briefcase"></i><span class="icon">Jobs</span>
+        </button>
+
+        <button class="nav__list--btn">
+          <i class="fas fa-comments"></i><span class="icon">Messaging</span>
+        </button>
+
+        <button class="nav__list--btn">
+          <i class="fas fa-bell"></i><span class="icon">Notifications</span>
+        </button>
+      </ul>
+    </div>
+  </header>
+
+  <main class="wrapper">
+    <sidebar class="profile-info">
+      <img src="img/banner.png" class="img-banner">
+      <img src="img/profile-pic.jpeg" class="profile-pic">
+      <h1 class="heading-name">Nina Simone</h1>
+      <h2 class="heading-position">Co-Founder @ Sinnerman</h2>
+      <hr class="horizontal-line" />
+      <div class="text">
+        <p class="views">Who's viewed Your profile<span class="blue-views">200</span></p>
+        <p class="connections">Connections<span class="blue-connections">1,120</span></p>
+        <p class="network"><b>Manage Your Network</b></p>
+        <p class="articles">Your Saved Articles<span class="blue-articles">6</span></p>
+      </div>
+    </sidebar>
+
+    <section class="post">
+      <textarea rows="4" cols="50" class="share-text">
+        Share an article, photo, video or Idea
+        </textarea>
+      <ul class="buttons">
+        <button class="article--btn"><i class="fas fa-newspaper"></i> Write an Article</button>
+        <button class="article--btn"><i class="fas fa-camera"></i> Images</button>
+        <button class="article--btn"><i class="fas fa-video"></i> Post</button>
+
+        <button class="post--btn">Post</button>
+      </ul>
+      <hr class="post-hr" />
+    </section>
+
+    <hr class="in-between" />
+    <section class="feed">
+      <img src="img/profile-pic.jpeg" class="feed-img">
+      <h1 class="nina">Nina Simone<img src="img/logo.png" class="feed-text"><span class="following">· Following</span>
+      </h1>
+      <h2 class="sub-nina">Artist at Nina Simone | Influencer <span class="time-ago"><br>6h</span></h2>
+      <p class="heading">There's no excuse for the young people not knowing who the heroes and heroines are or were.</p>
+      <img src="img/nina.jpg" class="nina-image">
+      <p class="likes-comments">4310 Likes · 217 Comments</p>
+      <hr class="nina-hr" />
+      <ul class=social-buttons>
+        <button class="nina--btn"><i class="fas fa-thumbs-up"></i> Like</button>
+        <button class="nina--btn"><i class="fas fa-comment"></i> Comment</button>
+        <button class="nina--btn"><i class="fas fa-share"></i> Share</button>
+      </ul>
+    </section>
+  </main>
+
+</body>
+
+</html>
